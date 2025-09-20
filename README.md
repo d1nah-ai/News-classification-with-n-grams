@@ -1,6 +1,6 @@
 # News Classification with N-grams  
 
-## 📌 Project Overview  
+##  Project Overview  
 This project applies **Natural Language Processing (NLP)** techniques to classify news articles into four categories:  
 -  World  
 -  Sports  
@@ -11,7 +11,7 @@ The approach focuses on using **N-gram features (Unigrams, Bigrams, Trigrams)** 
 
 ---
 
-## 🎯 Research Questions  
+##  Research Questions  
 1. What is the impact of different N-gram ranges on classification accuracy?  
 2. Which classifier (KNN, Decision Tree, or Random Forest) performs best with N-gram features?  
 3. How does text preprocessing (tokenization, stemming, stopword removal) affect results?  
@@ -19,7 +19,7 @@ The approach focuses on using **N-gram features (Unigrams, Bigrams, Trigrams)** 
 
 ---
 
-## 🛠 Methodology  
+##  Methodology  
 
 ### 1. Dataset  
 - **AG News Classification Dataset** (by Xiang Zhang, published on Kaggle by Aman Anand).  
@@ -54,7 +54,7 @@ The approach focuses on using **N-gram features (Unigrams, Bigrams, Trigrams)** 
 
 ---
 
-## 📊 Results  
+##  Results  
 
 - **Unigrams** consistently outperformed bigrams and trigrams.  
 - **Random Forest (with Unigrams)** achieved the highest performance:  
@@ -79,15 +79,6 @@ The approach focuses on using **N-gram features (Unigrams, Bigrams, Trigrams)** 
 - Experiment with **deep learning (CNN, RNN, Transformers like BERT)**.  
 - Build **hybrid models** mixing N-gram features with embeddings.  
 
----
-
-##  Installation & Usage  
-
-### Clone Repository  
-```bash
-git clone https://github.com/yourusername/news-classification-ngrams.git
-cd news-classification-ngrams
-``` 
 
 ---
 
