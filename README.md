@@ -2,10 +2,10 @@
 
 ## 📌 Project Overview  
 This project applies **Natural Language Processing (NLP)** techniques to classify news articles into four categories:  
-- 🌍 World  
-- 🏅 Sports  
-- 💼 Business  
-- 🔬 Science/Technology  
+-  World  
+-  Sports  
+-  Business  
+-  Science/Technology  
 
 The approach focuses on using **N-gram features (Unigrams, Bigrams, Trigrams)** with traditional **machine learning classifiers** to evaluate the impact of different text representations and preprocessing techniques on classification performance.  
 
@@ -63,7 +63,7 @@ The approach focuses on using **N-gram features (Unigrams, Bigrams, Trigrams)** 
 
 ---
 
-## ✅ Key Insights  
+##  Key Insights  
 - **Simplicity works:** Unigrams capture enough discriminative power for news classification.  
 - **Random Forest is the best performer** among traditional classifiers for this dataset.  
 - **Preprocessing is crucial** to reduce noise and improve feature quality.  
@@ -71,7 +71,7 @@ The approach focuses on using **N-gram features (Unigrams, Bigrams, Trigrams)** 
 
 ---
 
-## 🚀 Future Improvements  
+##  Future Improvements  
 - Use **TF-IDF weighting** instead of raw counts.  
 - Combine **Unigrams + Bigrams** for richer context.  
 - Explore **character-level N-grams** for robustness.  
@@ -81,7 +81,7 @@ The approach focuses on using **N-gram features (Unigrams, Bigrams, Trigrams)** 
 
 ---
 
-## 📦 Installation & Usage  
+##  Installation & Usage  
 
 ### Clone Repository  
 ```bash
